@@ -44,7 +44,7 @@ INSTANTIATE_TEST_CASE_P(Default, SchedulerTest,
     std::make_tuple("A", 0.01),
     std::make_tuple("A", 0.1),
     
-    std::make_tuple("B", 0.01),
+    std::make_tuple("B", 0.05),
     std::make_tuple("B", 0.2)
   )
 );
