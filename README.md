@@ -39,7 +39,7 @@ make
 ./test
 ```
 
-Document for conducting the assignment can be found at following link: [Lab1 Document](./lab1/[DKU_OS_LAB1]CPU_Scheduler_Simulator.pdf)
+Document for conducting the assignment can be found at following link: [Lab1 Document](./[DKU_OS_LAB1]CPU_Scheduler_Simulator.pdf)
 
 ## Lab2
 Will be updated soon
