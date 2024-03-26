@@ -27,7 +27,6 @@ If you want to proceed to Lab1, go to command below :
 sudo apt install openssl
 sudo apt-get install libgtest-dev
 
-cd ~ 
 git clone https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS.git
 cd 2024_DKU_OS/lab1
 make
