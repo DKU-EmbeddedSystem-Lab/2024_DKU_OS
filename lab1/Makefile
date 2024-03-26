@@ -4,7 +4,7 @@ CXX=g++
 # 컴파일러 플래그 설정: -std=c++11은 C++11 표준 사용을 의미함
 CXXFLAGS=-std=c++11 -g
 
-LDFLAGS=-lpthread -lgtest -lcrypto
+LDFLAGS=-lpthread -lgtest -lcrypto -Wno-deprecated-declarations
 
 # Source files
 SOURCES=test.cpp sched.cpp test_util.cpp
