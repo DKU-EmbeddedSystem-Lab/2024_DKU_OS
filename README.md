@@ -16,7 +16,7 @@ Operating System: Ubuntu 22.04.4 LTS
 
 ## Lab0
 Lab0 contains information about installing a virtual machine and Ubuntu. Set the environment according to the documentation. The documentation for lab0 is at the link below. The OS image to use for preferences is also on the link below. 
-- [Lab0 Document](./[DKU_OS_LAB0]%20Linux%20Image%20Manual.pdf])
+- [Lab0 Document](./[DKU_OS_LAB0]%20Linux%20Image%20Manual.pdf)
 - [DKU OS Image](https://drive.google.com/file/d/1YHhEv67pzsZ3nJT6q4Fb9FXHWTRmTeex/view?usp=sharing) (Root password : 1234)
 
 
