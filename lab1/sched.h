@@ -1,10 +1,3 @@
-/*
-*	DKU Operating System Lab
-*	    Lab1 (Scheduler Algorithm Simulator)
-*	    Student id : 
-*	    Student name : 
-*/
-
 #include <string>
 #include <stdio.h>
 #include <iostream>
