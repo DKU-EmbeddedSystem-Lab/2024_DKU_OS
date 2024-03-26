@@ -12,6 +12,7 @@ Virtual Machine Platform: [VirtualBox 7.0.14](https://www.virtualbox.org/wiki/Do
 - This environment is based on VirtualBox 7.0.14.
 
 Windows Subsystem for Linux Install Guide [(WSL)](https://docs.microsoft.com/ko-KR/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
+
 Operating System: Ubuntu 22.04.4 LTS
 
 ## Lab0
