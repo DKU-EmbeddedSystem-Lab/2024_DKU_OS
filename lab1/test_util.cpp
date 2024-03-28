@@ -127,7 +127,7 @@ void SchedulerTest::print_stat() {
         sum_first_run_time += job.first_run_time;
         sum_completion_time += job.completion_time;
         sum_turn_around_time += turn_around_time;
-        sum_response_time += turn_around_time;
+        sum_response_time += response_time;
 
         std::cout << std::left << std::setw(nameWidth) << 'P' + std::to_string(job.name) << " | "
                 << std::setw(colWidth) << job.arrival_time << " | "
