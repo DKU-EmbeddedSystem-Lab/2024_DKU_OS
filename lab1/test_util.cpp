@@ -204,7 +204,6 @@ void SchedulerTest::check_answer(const std::string& scheduler_name, std::string 
     } else {
       Job* data = end_jobs_.data();
       size_t data_size = end_jobs_.size();
-      std::cout << data_size << std::endl;
       SHA256_Update(&sha256, data, data_size*sizeof(Job));
     }
 
