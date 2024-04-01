@@ -200,11 +200,12 @@ void SchedulerTest::check_answer(const std::string& scheduler_name, std::string 
     if (suffix == "order"){
       int* data = sched_log_.data();
       size_t data_size = sched_log_.size();
-      SHA256_Update(&sha256, data, data_size);
+      SHA256_Update(&sha256, data, data_size*sizeof(int));
     } else {
       Job* data = end_jobs_.data();
       size_t data_size = end_jobs_.size();
-      SHA256_Update(&sha256, data, data_size);
+      std::cout << data_size << std::endl;
+      SHA256_Update(&sha256, data, data_size*sizeof(Job));
     }
 
     unsigned char hash[SHA256_DIGEST_LENGTH];
