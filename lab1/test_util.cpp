@@ -163,7 +163,7 @@ void SchedulerTest::print_order() {
     
     std::string job_string[max];
     for (int i = 0; i < max; i++){
-      job_string[i] = "P" + std::to_string(i) + "      |";
+      job_string[i] = "P" + std::to_string(i+1) + "      |";
       for (int job : sched_log_){
         if (i + 1 == job){
           job_string[i] += " [] ";
@@ -175,7 +175,7 @@ void SchedulerTest::print_order() {
 
     std::string order_string = "Process |";
     std::string row_string = "---------";
-    for (int i= 1; i<sched_log_.size(); i++){
+    for (int i= 0; i<sched_log_.size() - 1; i++){
       order_string += " " + std::to_string(i);
       if (i<10){
         order_string += " ";
