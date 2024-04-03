@@ -41,6 +41,7 @@ Document for conducting the assignment can be found at following link: [Lab1 Doc
 - [901265a](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/901265af11ff4ba8341a8ed6639b32d86931b04b) (24-03-28) : 통계 결과 계산 수정 (average response time)
 - [be0ff83](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/be0ff833658c50aa39081c7953f8e00be8c9a49f) (24-04-01) : 통계 결과 채점 수정 (scheduling stat)
 - [2fae0b3](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/2fae0b3ec37bee4e1b95924538a3ae3c2f6baf2e) (24-04-01) : 결과 출력 형식 수정
+- [95e3f0d](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/95e3f0dc0c879c9bff9518e1130c695b073ceff2) (24-04-03) : PPT 수정 (Workload B, 과제 재제출 방법)
 
 이미 `git clone`한 경우, 수정사항을 반영하기 위해 아래와 같이 `git pull`하여 과제를 수행하시길 바랍니다.
 ```
