@@ -35,22 +35,26 @@ make
 
 Document for conducting the assignment can be found at following link: [Lab1 Document](./[DKU_OS_LAB1]%20CPU_Scheduler_Simulator.pdf)
 
-### Fix Log
-수정사항에 대한 설명은 [git issue](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/issues/2)를 참고하시길 바랍니다.
-
-- [901265a](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/901265af11ff4ba8341a8ed6639b32d86931b04b) (24-03-28) : 통계 결과 계산 수정 (average response time)
-- [be0ff83](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/be0ff833658c50aa39081c7953f8e00be8c9a49f) (24-04-01) : 통계 결과 채점 수정 (scheduling stat)
-- [2fae0b3](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/2fae0b3ec37bee4e1b95924538a3ae3c2f6baf2e) (24-04-01) : 결과 출력 형식 수정
-- [95e3f0d](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/95e3f0dc0c879c9bff9518e1130c695b073ceff2) (24-04-03) : PPT 수정 (Workload B, 과제 재제출 방법)
-- [9f34748](https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS/commit/9f34748dc4ab2598eb5ab4a25499bda9038b3e77) (24-04-03) : FeedBack Workload B 정답 수정
-
-이미 `git clone`한 경우, 수정사항을 반영하기 위해 아래와 같이 `git pull`하여 과제를 수행하시길 바랍니다.
-```
-cd 2024_DKU_OS
-git pull origin main 
-```
 
 ## Lab2
-Will be updated soon
+```
+sudo apt-get install libgtest-dev
+git clone https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS.git
+cd 2024_DKU_OS/lab2
+```
+(1) Queue
+```
+cd queue
+make
+./test
+```
+(2) Binary Search Tree
+```
+cd bst
+make
+./test
+```
+
+Document for conducting the assignment can be found at following link: [Lab2 Document](./[DKU_OS_LAB2]%20Concurrent_Data_Structure.pdf)
 ## Lab3
 Will be updated soon
