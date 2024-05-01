@@ -4,6 +4,7 @@
 #include <random>
 #include <chrono>
 #include <iostream>
+#include <algorithm>
 #include "gtest/gtest.h"
 #include "test_util.h"
 
