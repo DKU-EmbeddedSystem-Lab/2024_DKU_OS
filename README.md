@@ -75,6 +75,7 @@ If you want for proceed to Lab3, go to command below :
 git clone https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS.git
 cd lab3
 make
+sudo su
 insmod ramdisk.ko
 mkfs.ext2 /dev/ramdisk
 mkdir mnt
@@ -88,6 +89,7 @@ Then you can proceed Lab3
 If you want to proceed to Lab3-Bounus, go to command below:
 
 ```
+sudo su
 umount /dev/ramdisk
 rmmod ramdisk
 insmod ramdisk.ko
