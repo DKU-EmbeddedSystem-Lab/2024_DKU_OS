@@ -62,4 +62,42 @@ Document for conducting the assignment can be found at following link: [Lab2 Doc
 - 단, ENQ_THEN_DEQ Workload는 Fine/Coarse-grained Queue의 수행시간이 비슷한 경우도 인정
 
 ## Lab3
-Will be updated soon
+### You must use VirtualBox(Ubuntu Linux Env), not WSL!!
+
+New Ubuntu Image Upload : [Lab3 Image Link](https://drive.google.com/file/d/1lfWipurgLTlyQxotV7OJdEYPEowwhp9E/view?usp=sharing)
+
+Password : 1234
+
+VirtualBox image is upload at above.
+
+If you want for proceed to Lab3, go to command below :
+```
+cd lab3
+make
+insmod ramdisk.ko
+mkfs.ext2 /dev/ramdisk
+mkdir mnt
+mount /dev/ramdisk ./mnt
+./create.sh
+./apd mnt/A/BC 13 A/BC-13        //A, B, C is your last 3 digit of you student ID : 32XXXABC
+./apd mnt/A/CB 13 A/CB-13        //A, B, C is your last 3 digit of you student ID : 32XXXABC
+```
+Then you can proceed Lab3
+
+If you want to proceed to Lab3-Bounus, go to command below:
+
+```
+umount /dev/ramdisk
+rmmod ramdisk
+insmod ramdisk.ko
+cd os_ext2        //Change the source code
+make
+insmod os_ext2.ko
+mkfs.ext2 /dev/ramdisk
+mount -t os_ext2 /dev/ramdisk ../mnt
+dmesg | grep [YOUR_NAME]
+```
+
+See the document for details.
+
+[Lab3 Document Link](./[DKU_OS_LAB3]%20File%20System.pdf)
