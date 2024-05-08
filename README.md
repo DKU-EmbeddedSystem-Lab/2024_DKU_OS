@@ -100,5 +100,7 @@ dmesg | grep [YOUR_NAME]
 ```
 
 See the document for details.
+- Lab3 Document : [[DKU_OS_LAB3] File System.pdf](./[DKU_OS_LAB3]%20File%20System.pdf)
+- Report Submission : https://forms.gle/yWGgVHVRfvviYd286
+- Submission Deadline : **24-06-05 23:59:59**
 
-[Lab3 Document Link](./[DKU_OS_LAB3]%20File%20System.pdf)
