@@ -62,7 +62,7 @@ Document for conducting the assignment can be found at following link: [Lab2 Doc
 - 단, ENQ_THEN_DEQ Workload는 Fine/Coarse-grained Queue의 수행시간이 비슷한 경우도 인정
 
 ## Lab3
-### You must use VirtualBox(Ubuntu Linux Env), not WSL!!
+### You must use VirtualBox(Ubuntu Linux Env) with "new Ubuntu" image!
 
 New Ubuntu Image Upload : [Lab3 Image Link](https://drive.google.com/file/d/1lfWipurgLTlyQxotV7OJdEYPEowwhp9E/view?usp=sharing)
 
