@@ -72,6 +72,7 @@ VirtualBox image is upload at above.
 
 If you want for proceed to Lab3, go to command below :
 ```
+git clone https://github.com/DKU-EmbeddedSystem-Lab/2024_DKU_OS.git
 cd lab3
 make
 insmod ramdisk.ko
