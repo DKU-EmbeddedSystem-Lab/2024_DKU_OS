@@ -14,10 +14,10 @@ TEST_P(QueueSingleThreadTest, Coarse) {
   queue_ = new CoarseQueue();
 }
 
-// /// @brief  Test Queue with fine-grained lock in single-thread
-// TEST_P(QueueSingleThreadTest, Fine) {  
-//   queue_ = new FineQueue();
-// }
+/// @brief  Test Queue with fine-grained lock in single-thread
+TEST_P(QueueSingleThreadTest, Fine) {  
+  queue_ = new FineQueue();
+}
 
 /// @brief  QueueSingleThreadTest Test Case and Parameters
 INSTANTIATE_TEST_CASE_P(Default, QueueSingleThreadTest,
@@ -33,10 +33,10 @@ TEST_P(QueueMultiThreadTest, Coarse) {
   queue_ = new CoarseQueue();
 }
 
-// /// @brief  Test Queue with fine-grained lock in multi-thread
-// TEST_P(QueueMultiThreadTest, Fine) {
-//   queue_ = new FineQueue();
-// }
+/// @brief  Test Queue with fine-grained lock in multi-thread
+TEST_P(QueueMultiThreadTest, Fine) {
+  queue_ = new FineQueue();
+}
 
 /// @brief  QueueMultiThreadTest Test Case and Parameters
 INSTANTIATE_TEST_CASE_P(Default, QueueMultiThreadTest,
