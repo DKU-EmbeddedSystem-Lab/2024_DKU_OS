@@ -57,9 +57,11 @@ make
 
 Document for conducting the assignment can be found at following link: [Lab2 Document](./[DKU_OS_LAB2]%20Concurrent_Data_Structure.pdf)
 
-**Fine-grained Queue/BST 채점기준 추가**
-- Multi-threading 환경에서, Fine-grained Queue/BST가 Coarse-grained Queue/BST보다 수행시간이 더 긴 경우 50% 감점
-- 단, ENQ_THEN_DEQ Workload는 Fine/Coarse-grained Queue의 수행시간이 비슷한 경우도 인정
+- **Fine-grained Queue/BST 채점기준 추가**
+  - Multi-threading 환경에서, Fine-grained Queue/BST가 Coarse-grained Queue/BST보다 수행시간이 더 긴 경우 50% 감점
+  - 단, ENQ_THEN_DEQ Workload는 Fine/Coarse-grained Queue의 수행시간이 비슷한 경우도 인정
+
+- **과제 제출일 연장** : 5/14(화) 23:59:59 (사유: 소프트웨어학과 예비군)
 
 ## Lab3
 ### You must use VirtualBox(Ubuntu Linux Env) with "new Ubuntu" image!
